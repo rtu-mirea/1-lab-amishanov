@@ -22,6 +22,7 @@ public class Main {
                     n=in.nextInt();
                     a=new Array_c(n);
                     a.rand_Input();
+                    //a.rand_Input1();
                     break;
                 case 2:
                     System.out.println("Введите количество элементов");
