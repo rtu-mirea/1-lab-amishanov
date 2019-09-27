@@ -13,6 +13,11 @@ public class Array_c {
             arr[i] = (byte) ((Math.random()*255)-128) ;
         }
     }
+    void rand_Input1 (){//Метод получения псевдо случайного числа через Random
+        Random random=new Random();
+        random.nextBytes(arr);
+
+    }
 
     void Input(){ //Метод ввода в консоль
         System.out.println("Введите " + count + " Чисел");
