@@ -1,5 +1,6 @@
 package com.company;
 import java.util.Scanner;
+import java.util.Random;
 
 public class Array_c {
     int count;
