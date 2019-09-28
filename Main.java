@@ -41,7 +41,7 @@ public class Main {
                     break;
                 case 6:
                     byte p, v;
-                    System.out.println("Введите номер бита (0;7]");
+                    System.out.println("Введите номер бита [0;7]");
                     p=in.nextByte();
                     System.out.println("Введите номер бита 0 или 1");
                     v=in.nextByte();
