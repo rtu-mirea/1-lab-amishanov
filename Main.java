@@ -27,8 +27,14 @@ public class Main {
                 case 2:
                     System.out.println("Введите количество элементов");
                     n=in.nextInt();
-                    a=new Array_c(n);
-                    a.Input();
+                    byte[] tarr=new byte[n];
+                    Scanner in2 = new Scanner(System.in);
+                    System.out.println("Введите элементы массива");
+                    for (int i = 0; i < n; i++){
+                        tarr[i] = in.nextByte();
+                    }
+                    a=new Array_c(tarr);
+                    //a.Input();
                     break;
                 case 3:
                     a.Out();
