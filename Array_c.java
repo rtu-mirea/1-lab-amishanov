@@ -9,6 +9,9 @@ public class Array_c {
         this.count=count;
         arr = new byte [count];
     }
+    Array_c(byte []a){
+        arr=a;
+    }
     void rand_Input (){//Метод получения псевдо случайного числа
         for (int i = 0; i < count; i++){
             arr[i] = (byte) ((Math.random()*255)-128) ;
